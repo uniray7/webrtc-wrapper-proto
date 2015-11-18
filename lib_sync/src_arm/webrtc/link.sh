@@ -1,0 +1,142 @@
+~/Build/webrtc-checkout/src/third_party/llvm-build/Release+Asserts/bin/clang++ -MMD -MF console \
+    -DV8_DEPRECATION_WARNINGS -DCLD_VERSJSONCPP_RELATIVE_PATH -DLOGGING=3 -DSRTP_RELATIVE_PATH \
+    -DFEATURE_ENABLE_SSL -DFEATURE_ENABLE_PSTN -DHAVE_SCTP -DHAVE_SRTP -DHAVE_WEBRTC_VIDEO -DHAVE_WEBRTC_VOICE \
+    -D_FILE_OFFSET_BITS=64 -DCHROMRA=1 -DUSE_ASH=1 -DUSE_PANGO=1 -DUSE_CAIRO=1 -DUSE_DEFAULT_RENDER_THEME=1 \
+    -DUSE_LIBJPEG_TURBO=1 -DUSE_X11=1 -DUSE_CLIPBOARD_AURAX11=1 -DENABLE_ONE_CLICK_SIGNIN -DENABLE_PRE_SYNC_BACKUP \
+    -DENABLPOLICY -DENABLE_NOTIFICATIONS -DENABLE_HIDPI=1 -DENABLE_TOPCHROME_MD=1 -DUSE_UDEV -DDONT_EMBED_BUILD_METADATA \
+    -DFIELDTRIAL_TESTING_ENABLED -DENABLE_TASK_MANAGER=1 -DENABLE_EXTENSIONS=1 -DENABLOG=1 -DENABLE_BACKGROUND=1 \
+    -DENABLE_GOOGLE_NOW=1 -DENABLE_PRINTING=1 -DENABLE_BASIC_PRINTING=1 -DENABLE_PRINT_PREVIEW=1 -DENABLE_SPELLCHECK=1 \
+    -DENABLE_CAPTIVE_PORTAL_DETECTION=1 -DENABLE_APP_LBLE_SERVICE_DISCOVERY=1 -DV8_USE_EXTERNAL_STARTUP_DATA \
+    -DFULL_SAFE_BROWSING -DSAFE_BROWSING_CSD -DSAFE_BROWSING_DB_LOCAL -DSAFE_BROWSING_SERVICE -DLINUX -DWEBRTC_LINUX \
+    -DHASH_NAMESPACE=__gnu_cSSL=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DDYNAMIC_ANNOTATIONS_ENABLED=1 \
+    -DWTF_USE_DYNAMIC_ANNOTATIONS=1 \
+    -Igen -I/home/uniray/Build/webrtc-checkout/src -I/home/uniray/Build/webrtc-checkout/src/webrtc \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/overrides/include \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/source/include \
+    -fstack-protector --param=ssp-buffer-size=4 -Werror -pthread -fno-strict-aliasing -Wno-unused-parameter \
+    -Wno-missing-field-initializers -B/home/sukinull/Build/webrtc-checkout/src/third_party/binutils/Linux_x64/Release/bin \
+    -Wheader-hygiene -Wno-char-subscripts -Wno-unneeded-internal-declaration -Wno-covered-switch-default \
+    -Wno-inconsistent-missing-override \
+    -Wno-shift-negative-value -Wno-unused-function -Wno-unused-variable -Wformat -Wformat-security -Wimplicit-fallthrough \
+    -Wmissing-braces -Wreorder -Wno-return-type \
+    -I/usr/lib64/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 \
+    -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/includrm -I/usr/include/harfbuzz \
+    -Wno-unused-result -m64 -march=x86-64 -O0 -funwind-tables -gsplit-dwarf -Wno-undefined-bool-conversion \
+    -Wno-tautological-undefined-compare -fno-exceptions -fno-rtti -Wno-unused-private-field -Wno-deprecated  \
+    -std=c++11 \
+    -c answer.cc -o build/answer.o
+
+~/Build/webrtc-checkout/src/third_party/llvm-build/Release+Asserts/bin/clang++ -MMD -MF console \
+    -DV8_DEPRECATION_WARNINGS -DCLD_VERSJSONCPP_RELATIVE_PATH -DLOGGING=3 -DSRTP_RELATIVE_PATH \
+    -DFEATURE_ENABLE_SSL -DFEATURE_ENABLE_PSTN -DHAVE_SCTP -DHAVE_SRTP -DHAVE_WEBRTC_VIDEO -DHAVE_WEBRTC_VOICE \
+    -D_FILE_OFFSET_BITS=64 -DCHROMRA=1 -DUSE_ASH=1 -DUSE_PANGO=1 -DUSE_CAIRO=1 -DUSE_DEFAULT_RENDER_THEME=1 \
+    -DUSE_LIBJPEG_TURBO=1 -DUSE_X11=1 -DUSE_CLIPBOARD_AURAX11=1 -DENABLE_ONE_CLICK_SIGNIN -DENABLE_PRE_SYNC_BACKUP \
+    -DENABLPOLICY -DENABLE_NOTIFICATIONS -DENABLE_HIDPI=1 -DENABLE_TOPCHROME_MD=1 -DUSE_UDEV -DDONT_EMBED_BUILD_METADATA \
+    -DFIELDTRIAL_TESTING_ENABLED -DENABLE_TASK_MANAGER=1 -DENABLE_EXTENSIONS=1 -DENABLOG=1 -DENABLE_BACKGROUND=1 \
+    -DENABLE_GOOGLE_NOW=1 -DENABLE_PRINTING=1 -DENABLE_BASIC_PRINTING=1 -DENABLE_PRINT_PREVIEW=1 -DENABLE_SPELLCHECK=1 \
+    -DENABLE_CAPTIVE_PORTAL_DETECTION=1 -DENABLE_APP_LBLE_SERVICE_DISCOVERY=1 -DV8_USE_EXTERNAL_STARTUP_DATA \
+    -DFULL_SAFE_BROWSING -DSAFE_BROWSING_CSD -DSAFE_BROWSING_DB_LOCAL -DSAFE_BROWSING_SERVICE -DLINUX -DWEBRTC_LINUX \
+    -DHASH_NAMESPACE=__gnu_cSSL=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DDYNAMIC_ANNOTATIONS_ENABLED=1 \
+    -DWTF_USE_DYNAMIC_ANNOTATIONS=1 \
+    -Igen -I/home/uniray/Build/webrtc-checkout/src -I/home/uniray/Build/webrtc-checkout/src/webrtc \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/overrides/include \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/source/include \
+    -fstack-protector --param=ssp-buffer-size=4 -Werror -pthread -fno-strict-aliasing -Wno-unused-parameter \
+    -Wno-missing-field-initializers -B/home/sukinull/Build/webrtc-checkout/src/third_party/binutils/Linux_x64/Release/bin \
+    -Wheader-hygiene -Wno-char-subscripts -Wno-unneeded-internal-declaration -Wno-covered-switch-default \
+    -Wno-inconsistent-missing-override \
+    -Wno-shift-negative-value -Wno-unused-function -Wno-unused-variable -Wformat -Wformat-security -Wimplicit-fallthrough \
+    -Wmissing-braces -Wreorder -Wno-return-type \
+    -I/usr/lib64/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 \
+    -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/includrm -I/usr/include/harfbuzz \
+    -Wno-unused-result -m64 -march=x86-64 -O0 -funwind-tables -gsplit-dwarf -Wno-undefined-bool-conversion \
+    -Wno-tautological-undefined-compare -fno-exceptions -fno-rtti -Wno-unused-private-field -Wno-deprecated  \
+    -std=c++11 \
+    -c offer.cc -o build/offer.o
+
+
+~/Build/webrtc-checkout/src/third_party/llvm-build/Release+Asserts/bin/clang++ -MMD -MF console \
+    -DV8_DEPRECATION_WARNINGS -DCLD_VERSJSONCPP_RELATIVE_PATH -DLOGGING=3 -DSRTP_RELATIVE_PATH \
+    -DFEATURE_ENABLE_SSL -DFEATURE_ENABLE_PSTN -DHAVE_SCTP -DHAVE_SRTP -DHAVE_WEBRTC_VIDEO -DHAVE_WEBRTC_VOICE \
+    -D_FILE_OFFSET_BITS=64 -DCHROMRA=1 -DUSE_ASH=1 -DUSE_PANGO=1 -DUSE_CAIRO=1 -DUSE_DEFAULT_RENDER_THEME=1 \
+    -DUSE_LIBJPEG_TURBO=1 -DUSE_X11=1 -DUSE_CLIPBOARD_AURAX11=1 -DENABLE_ONE_CLICK_SIGNIN -DENABLE_PRE_SYNC_BACKUP \
+    -DENABLPOLICY -DENABLE_NOTIFICATIONS -DENABLE_HIDPI=1 -DENABLE_TOPCHROME_MD=1 -DUSE_UDEV -DDONT_EMBED_BUILD_METADATA \
+    -DFIELDTRIAL_TESTING_ENABLED -DENABLE_TASK_MANAGER=1 -DENABLE_EXTENSIONS=1 -DENABLOG=1 -DENABLE_BACKGROUND=1 \
+    -DENABLE_GOOGLE_NOW=1 -DENABLE_PRINTING=1 -DENABLE_BASIC_PRINTING=1 -DENABLE_PRINT_PREVIEW=1 -DENABLE_SPELLCHECK=1 \
+    -DENABLE_CAPTIVE_PORTAL_DETECTION=1 -DENABLE_APP_LBLE_SERVICE_DISCOVERY=1 -DV8_USE_EXTERNAL_STARTUP_DATA \
+    -DFULL_SAFE_BROWSING -DSAFE_BROWSING_CSD -DSAFE_BROWSING_DB_LOCAL -DSAFE_BROWSING_SERVICE -DLINUX -DWEBRTC_LINUX \
+    -DHASH_NAMESPACE=__gnu_cSSL=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DDYNAMIC_ANNOTATIONS_ENABLED=1 \
+    -DWTF_USE_DYNAMIC_ANNOTATIONS=1  \
+    -Igen -I/home/uniray/Build/webrtc-checkout/src -I/home/uniray/Build/webrtc-checkout/src/webrtc \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/overrides/include \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/source/include \
+    -fstack-protector --param=ssp-buffer-size=4 -Werror -pthread -fno-strict-aliasing -Wno-unused-parameter \
+    -Wno-missing-field-initializers -B/home/sukinull/Build/webrtc-checkout/src/third_party/binutils/Linux_x64/Release/bin \
+    -Wheader-hygiene -Wno-char-subscripts -Wno-unneeded-internal-declaration -Wno-covered-switch-default \
+    -Wno-inconsistent-missing-override \
+    -Wno-shift-negative-value -Wno-unused-function -Wno-unused-variable -Wformat -Wformat-security -Wimplicit-fallthrough \
+    -Wmissing-braces -Wreorder -Wno-return-type \
+    -I/usr/lib64/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 \
+    -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/includrm -I/usr/include/harfbuzz \
+    -Wno-unused-result -m64 -march=x86-64 -O0 -g -funwind-tables -gsplit-dwarf -Wno-undefined-bool-conversion \
+    -Wno-tautological-undefined-compare -fno-exceptions -fno-rtti -Wno-unused-private-field -Wno-deprecated  \
+    -std=c++11 \
+    -c RTCDataChannel.cpp -o build/RTCDataChannel.o
+
+~/Build/webrtc-checkout/src/third_party/llvm-build/Release+Asserts/bin/clang++ -MMD -MF console \
+    -DV8_DEPRECATION_WARNINGS -DCLD_VERSJSONCPP_RELATIVE_PATH -DLOGGING=1 -DSRTP_RELATIVE_PATH \
+    -DFEATURE_ENABLE_SSL -DFEATURE_ENABLE_PSTN -DHAVE_SCTP -DHAVE_SRTP -DHAVE_WEBRTC_VIDEO -DHAVE_WEBRTC_VOICE \
+    -D_FILE_OFFSET_BITS=64 -DCHROMRA=1 -DUSE_ASH=1 -DUSE_PANGO=1 -DUSE_CAIRO=1 -DUSE_DEFAULT_RENDER_THEME=1 \
+    -DUSE_LIBJPEG_TURBO=1 -DUSE_X11=1 -DUSE_CLIPBOARD_AURAX11=1 -DENABLE_ONE_CLICK_SIGNIN -DENABLE_PRE_SYNC_BACKUP \
+    -DENABLPOLICY -DENABLE_NOTIFICATIONS -DENABLE_HIDPI=1 -DENABLE_TOPCHROME_MD=1 -DUSE_UDEV -DDONT_EMBED_BUILD_METADATA \
+    -DFIELDTRIAL_TESTING_ENABLED -DENABLE_TASK_MANAGER=1 -DENABLE_EXTENSIONS=1 -DENABLOG=1 -DENABLE_BACKGROUND=1 \
+    -DENABLE_GOOGLE_NOW=1 -DENABLE_PRINTING=1 -DENABLE_BASIC_PRINTING=1 -DENABLE_PRINT_PREVIEW=1 -DENABLE_SPELLCHECK=1 \
+    -DENABLE_CAPTIVE_PORTAL_DETECTION=1 -DENABLE_APP_LBLE_SERVICE_DISCOVERY=1 -DV8_USE_EXTERNAL_STARTUP_DATA \
+    -DFULL_SAFE_BROWSING -DSAFE_BROWSING_CSD -DSAFE_BROWSING_DB_LOCAL -DSAFE_BROWSING_SERVICE -DLINUX -DWEBRTC_LINUX \
+    -DHASH_NAMESPACE=__gnu_cSSL=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DDYNAMIC_ANNOTATIONS_ENABLED=1 \
+    -DWTF_USE_DYNAMIC_ANNOTATIONS=1  \
+    -Igen -I/home/uniray/Build/webrtc-checkout/src -I/home/uniray/Build/webrtc-checkout/src/webrtc \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/overrides/include \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/source/include \
+    -fstack-protector --param=ssp-buffer-size=4 -Werror -pthread -fno-strict-aliasing -Wno-unused-parameter \
+    -Wno-missing-field-initializers -B/home/sukinull/Build/webrtc-checkout/src/third_party/binutils/Linux_x64/Release/bin \
+    -Wheader-hygiene -Wno-char-subscripts -Wno-unneeded-internal-declaration -Wno-covered-switch-default \
+    -Wno-inconsistent-missing-override \
+    -Wno-shift-negative-value -Wno-unused-function -Wno-unused-variable -Wformat -Wformat-security -Wimplicit-fallthrough \
+    -Wmissing-braces -Wno-reorder -Wno-return-type \
+    -I/usr/lib64/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 \
+    -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/includrm -I/usr/include/harfbuzz \
+    -Wno-unused-result -m64 -march=x86-64 -O0 -funwind-tables -gsplit-dwarf -Wno-undefined-bool-conversion \
+    -Wno-tautological-undefined-compare -fno-exceptions -fno-rtti -Wno-unused-private-field -Wno-deprecated  \
+    -std=c++11 \
+    -c RTCPeerConnection.cpp -o build/RTCPeerConnection.o
+
+~/Build/webrtc-checkout/src/third_party/llvm-build/Release+Asserts/bin/clang++ -MMD -MF console \
+    -DV8_DEPRECATION_WARNINGS -DCLD_VERSJSONCPP_RELATIVE_PATH -DLOGGING=3 -DSRTP_RELATIVE_PATH \
+    -DFEATURE_ENABLE_SSL -DFEATURE_ENABLE_PSTN -DHAVE_SCTP -DHAVE_SRTP -DHAVE_WEBRTC_VIDEO -DHAVE_WEBRTC_VOICE \
+    -D_FILE_OFFSET_BITS=64 -DCHROMRA=1 -DUSE_ASH=1 -DUSE_PANGO=1 -DUSE_CAIRO=1 -DUSE_DEFAULT_RENDER_THEME=1 \
+    -DUSE_LIBJPEG_TURBO=1 -DUSE_X11=1 -DUSE_CLIPBOARD_AURAX11=1 -DENABLE_ONE_CLICK_SIGNIN -DENABLE_PRE_SYNC_BACKUP \
+    -DENABLPOLICY -DENABLE_NOTIFICATIONS -DENABLE_HIDPI=1 -DENABLE_TOPCHROME_MD=1 -DUSE_UDEV -DDONT_EMBED_BUILD_METADATA \
+    -DFIELDTRIAL_TESTING_ENABLED -DENABLE_TASK_MANAGER=1 -DENABLE_EXTENSIONS=1 -DENABLOG=1 -DENABLE_BACKGROUND=1 \
+    -DENABLE_GOOGLE_NOW=1 -DENABLE_PRINTING=1 -DENABLE_BASIC_PRINTING=1 -DENABLE_PRINT_PREVIEW=1 -DENABLE_SPELLCHECK=1 \
+    -DENABLE_CAPTIVE_PORTAL_DETECTION=1 -DENABLE_APP_LBLE_SERVICE_DISCOVERY=1 -DV8_USE_EXTERNAL_STARTUP_DATA \
+    -DFULL_SAFE_BROWSING -DSAFE_BROWSING_CSD -DSAFE_BROWSING_DB_LOCAL -DSAFE_BROWSING_SERVICE -DLINUX -DWEBRTC_LINUX \
+    -DHASH_NAMESPACE=__gnu_cSSL=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DDYNAMIC_ANNOTATIONS_ENABLED=1 \
+    -DWTF_USE_DYNAMIC_ANNOTATIONS=1  \
+    -Igen -I/home/uniray/Build/webrtc-checkout/src -I/home/uniray/Build/webrtc-checkout/src/webrtc \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/overrides/include \
+    -I/home/uniray/Build/webrtc-checkout/src/third_party/jsoncpp/source/include \
+    -fstack-protector --param=ssp-buffer-size=4 -Werror -pthread -fno-strict-aliasing -Wno-unused-parameter \
+    -Wno-missing-field-initializers -B/home/sukinull/Build/webrtc-checkout/src/third_party/binutils/Linux_x64/Release/bin \
+    -Wheader-hygiene -Wno-char-subscripts -Wno-unneeded-internal-declaration -Wno-covered-switch-default \
+    -Wno-inconsistent-missing-override \
+    -Wno-shift-negative-value -Wno-unused-function -Wno-unused-variable -Wformat -Wformat-security -Wimplicit-fallthrough \
+    -Wmissing-braces -Wreorder -Wno-return-type \
+    -I/usr/lib64/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 \
+    -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/includrm -I/usr/include/harfbuzz \
+    -Wno-unused-result -m64 -march=x86-64 -O0  -funwind-tables -gsplit-dwarf -Wno-undefined-bool-conversion \
+    -Wno-tautological-undefined-compare -fno-exceptions -fno-rtti -Wno-unused-private-field -Wno-deprecated  \
+    -std=c++11 \
+    -c Utils.cpp -o build/Utils.o
+
+

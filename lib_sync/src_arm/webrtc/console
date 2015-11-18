@@ -1,0 +1,3 @@
+build/offer.o: offer.cc Utils.h common.h RTCPeerConnection.h \
+  RTCIceCandidate.h RTCConfiguration.h MediaConstraints.h \
+  SessionDescription.h RTCDataChannel.h Message.h

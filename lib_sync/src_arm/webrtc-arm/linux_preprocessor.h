@@ -1,0 +1,4 @@
+#ifndef LINUX_PREPROCESSOR_H_
+#define LINUX_PREPROCESSOR_H_
+#define WEBRTC_POSIX 
+#endif
